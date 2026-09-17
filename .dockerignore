@@ -1,0 +1,10 @@
+.git
+.build
+DerivedData
+**/node_modules
+web/dist
+web/test-results
+web/playwright-report
+**/.DS_Store
+**/.env
+!web/.env.example
