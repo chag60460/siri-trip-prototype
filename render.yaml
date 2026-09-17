@@ -12,5 +12,9 @@ services:
         value: 24.7.0
       - key: SIRI_EMBED_ORIGINS
         value: https://chag60460.github.io
-      - key: GEMINI_API_KEY
+      - key: AI_BASE_URL
+        value: https://api.groq.com/openai/v1
+      - key: AI_MODEL
+        value: openai/gpt-oss-120b
+      - key: AI_API_KEY
         sync: false
